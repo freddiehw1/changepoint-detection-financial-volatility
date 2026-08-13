@@ -3,7 +3,9 @@
 Implementation of six change-point detection methods — W-CUSUM, W²-CUSUM, ICSS,
 Normalised Mean-CUSUM, Max-DEWMA, and AEWMA — for detecting mean and variance
 shifts in financial volatility. This repository contains the full simulation,
-calibration, and real-data analysis code behind the thesis *[thesis title]*.
+calibration, and real-data analysis code behind the thesis *A Comparative Evaluation
+of CUSUM and EWMA Change-Point Detection Methods for Mean and Variance Shifts in
+Financial Volatility*.
 
 ## Methods
 
@@ -18,7 +20,7 @@ calibration, and real-data analysis code behind the thesis *[thesis title]*.
 
 ## Requirements
 
-pip install numpy scipy matplotlib scienceplots pandas yfinance --break-system-packages
+pip install numpy scipy matplotlib scienceplots pandas yfinance --break-system-packages. 
 `yfinance` is only needed for `real_data_event_studies.py`, which pulls S&P 500 data
 from Yahoo Finance and VIX data from FRED.
 
