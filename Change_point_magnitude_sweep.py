@@ -28,7 +28,7 @@ from Methods_and_base_simulation import (
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-OUTPUT_DIR = BASE_DIR / "outputs"
+OUTPUT_DIR = BASE_DIR / "outputs" / "magnitude_sweep"
 
 # ---------------------------------------------------------------------------
 # Parameters
@@ -279,7 +279,7 @@ def plot_stacked(results, y_field, y_label, title_mean, title_var, filename, err
 
 
 if __name__ == "__main__":
-    OUTPUT_DIR.mkdir(exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     results = run_sweep()
 
     plot_stacked(results, "detection_rate", "Detection rate (%)",
