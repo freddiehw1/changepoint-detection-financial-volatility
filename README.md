@@ -44,7 +44,7 @@ from Yahoo Finance and VIX data from FRED.
 
 ## Usage
 
-Each script is runnable standalone:Output figures are written to `outputs/<script_name>/` and are not committed to this repository — run the relevant script to regenerate them.
+Each script is runnable standalone: Output figures are written to `outputs/<script_name>/` and are not committed to this repository — run the relevant script to regenerate them.
 
 
 ## Data sources
